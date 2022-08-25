@@ -1,0 +1,367 @@
+// //////////////////////////////////////////////////////////////////////////////////////////////////
+// ==================================================================================================
+//
+// Style Global
+// - Utilities
+// - Section
+// - Lists
+// - Text
+// - Claim Data Entry Page
+// ==================================================================================================
+// //////////////////////////////////////////////////////////////////////////////////////////////////
+
+@import '~assets/styleguides/styleguides';
+
+// Utilities
+// ============================================================
+.text-error {
+  color: $color-red-1;
+}
+
+.link-wrapper {
+  display: inline-block;
+}
+
+.has-width-100 {
+  width: 100%;
+}
+
+// Section
+// ============================================================
+.global-section {
+  &.is-search,
+  &.is-table {
+    margin: 0 0 24px;
+  }
+
+  &.is-checkbox-all-status {
+    margin: 0 0 6px;
+  }
+
+  &.is-heading-search {
+    margin: -2px 0 14px;
+  }
+}
+
+// Lists
+// ============================================================
+.global-lists {
+  &.is-search {
+    .global-list {
+      margin: 0 0 12px;
+
+      &:last-child {
+        margin: 0;
+      }
+    }
+  }
+}
+
+// Text
+// ============================================================
+.global-text {
+  &.is-heading-search {
+    @include typography-primary-semibold-18;
+    color: $color-gray-1;
+  }
+}
+
+// Claim Data Entry Page
+// ============================================================
+.claim-data-entry {
+  /* Parent style   ------------------------------ */
+  @include pageContainer;
+
+  /* Children style ------------------------------ */
+  .cde-section {
+    &.is-label {
+      margin: 0 0 4px;
+    }
+
+    &.is-coverage-information {
+      margin: 0 0 16px;
+    }
+
+    &.is-submit {
+      padding: 40px 0 0;
+    }
+
+    &.is-reject-code {
+      padding: 16px 0 0;
+    }
+  }
+
+  .cde-panel {
+    &.is-coverage-summary {
+      display: flex;
+      align-items: center;
+      height: 36px;
+      padding: 0 16px;
+      background-color: $color-blue-1a10;
+      border-radius: 4px;
+    }
+
+    &.is-coverage-management-control {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 272px;
+      height: 44px;
+      padding: 0 16px;
+      background-color: $color-white;
+      border-radius: 4px;
+      box-shadow: 0 5px 20px rgba(125, 138, 139, 0.2);
+    }
+  }
+
+  .cde-text {
+    &.is-toggle-information {
+      @include typography-primary-medium-14;
+      color: $color-primary-1;
+      text-decoration: underline;
+    }
+
+    &.is-toggle-coverage-management {
+      @include typography-primary-semibold-14;
+      position: relative;
+      top: -1px;
+      color: $color-gray-1;
+    }
+
+    &.is-label {
+      @include typography-primary-semibold-16;
+      color: $color-gray-1;
+    }
+
+    &.is-label-status {
+      @include typography-primary-medium-12;
+      color: $color-gray-2;
+    }
+
+    &.is-label-coverage-summary {
+      @include typography-primary-medium-12;
+      color: $color-primary-1;
+    }
+
+    &.is-cost-coverage-summary {
+      @include typography-primary-extrabold-14;
+      color: $color-primary-1;
+    }
+
+    &.is-unit-coverage-summary {
+      @include typography-primary-medium-12;
+      color: $color-gray-3;
+    }
+
+    &.is-no-result {
+      @include typography-primary-medium-14;
+      color: $color-gray-3;
+    }
+
+    &.is-hint {
+      @include typography-primary-regular-12;
+      color: $color-primary-1;
+    }
+  }
+
+  .cde-lists {
+    &.is-panel {
+      > .cde-list {
+        margin: 0 0 16px;
+
+        &:last-child {
+          margin: 0;
+        }
+      }
+    }
+
+    &.is-information {
+      .cde-list {
+        margin: 0 0 10px;
+
+        &:last-child {
+          margin: 0;
+        }
+      }
+    }
+  }
+
+  .cde-button {
+    @include button-transition;
+
+    &.is-toggle-information {
+    }
+  }
+
+  .cde-line {
+    &.is-partition-submit {
+      height: 36px;
+      border-right: 1px solid $color-gray-11;
+    }
+  }
+
+  /* Other component style ----------------------- */
+  .search-notfound {
+    &.is-form {
+      margin: 32px auto;
+    }
+  }
+
+  /* Modifier style ------------------------------ */
+  &.is-read-only {
+    // Button
+    .button-custom {
+      &.is-add-icd9,
+      &.is-add-icd10,
+      &.is-clear-amount,
+      &.is-add-request-document,
+      &.is-add-reject-form {
+        // display: none;
+      }
+    }
+
+    .form-icd-button {
+      &.is-delete {
+        // display: none;
+      }
+    }
+
+    // Upload File
+    .upload-file {
+      &.is-file-attachment {
+        // display: none;
+      }
+    }
+
+    // Input
+    .input-custom-container {
+      .input-custom {
+        pointer-events: none;
+        background-color: $color-disabled;
+        color: $color-gray-1;
+      }
+
+      &.is-error {
+        .input-custom {
+          border-color: $color-gray-3a15;
+        }
+      }
+    }
+
+    // Select
+    .multiselect-custom {
+      .multiselect {
+        pointer-events: none;
+      }
+
+      .multiselect__tags,
+      .multiselect__input,
+      .multiselect__single {
+        background: $color-disabled;
+      }
+
+      .multiselect__select {
+        &:before {
+          background-image: url('~static/images/icons/ic-arrow-select-gray.svg');
+        }
+      }
+
+      &.is-error {
+        .multiselect__tags {
+          border-color: $color-gray-3a15;
+        }
+      }
+    }
+
+    // DateTime Picker
+    .datetime-picker {
+      .flatpickr-input {
+        pointer-events: none;
+        background-color: $color-disabled;
+        color: $color-gray-3;
+      }
+
+      &.is-error {
+        .flatpickr-input {
+          border-color: $color-gray-3a15;
+        }
+      }
+    }
+
+    // Textarea
+    .textarea-custom-container {
+      .textarea-custom {
+        pointer-events: none;
+        background-color: $color-disabled;
+        color: $color-gray-1;
+      }
+    }
+
+    // Grid
+    .grid {
+      &.is-submit-buttons {
+        > .grid-col {
+          &.is-partition-line,
+          &.is-select-status,
+          &.is-button-submit {
+            // display: none;
+          }
+        }
+      }
+
+      &.is-button-group {
+        > .grid-col {
+          &.is-button-received-document,
+          &.is-button-admission-prearrangement,
+          &.is-button-gop,
+          &.is-button-reverse,
+          &.is-button-save {
+            // display: none;
+          }
+        }
+      }
+    }
+
+    // Modal
+    .modal-claim-note,
+    .modal-policy-claim-note {
+      .button-custom {
+        &.is-add-claim-note {
+          // display: none;
+        }
+      }
+
+      .table-custom {
+        &.is-claim-note,
+        &.is-policy-claim-note {
+          .thead-custom .th-custom,
+          .tbody-custom .td-custom {
+            &.is-operations,
+            &.is-operation-edit,
+            &.is-operation-add {
+              // display: none;
+            }
+          }
+        }
+      }
+
+      .table-custom {
+        &.is-policy-claim-note {
+          .tbody-custom .td-custom {
+            &.is-textarea {
+              padding: 10px 16px 11px 4px;
+            }
+          }
+        }
+      }
+
+      .textarea-custom-container {
+        .textarea-custom {
+          pointer-events: auto;
+          background-color: $color-white;
+          color: $color-gray-1;
+        }
+      }
+    }
+  }
+}

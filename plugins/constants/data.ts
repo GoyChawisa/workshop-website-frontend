@@ -1,0 +1,12 @@
+const FORMAT_DATE = 'DD/MM/YYYY';
+const FORMAT_DATE_TIME = 'DD/MM/YYYY, HH:mm';
+const FORMAT_TIME = 'HH:mm';
+
+const FORMAT_DATE_YMD = 'YYYY-MM-DD';
+
+export const DATA = {
+  FORMAT_DATE,
+  FORMAT_TIME,
+  FORMAT_DATE_TIME,
+  FORMAT_DATE_YMD,
+};

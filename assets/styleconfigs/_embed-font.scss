@@ -1,0 +1,127 @@
+// //////////////////////////////////////////////////////////////////////////////////////////////////
+// ==================================================================================================
+//
+// Embed font
+// - Sarabun
+// - SF Pro Text
+//
+// ==================================================================================================
+// //////////////////////////////////////////////////////////////////////////////////////////////////
+
+// Variables
+// ============================================================
+// Sarabun
+$path-file-font-family-primary-extralight: '~static/fonts/sarabun/Sarabun-ExtraLight';
+$path-file-font-family-primary-light: '~static/fonts/sarabun/Sarabun-Light';
+$path-file-font-family-primary-regular: '~static/fonts/sarabun/Sarabun-Regular';
+$path-file-font-family-primary-medium: '~static/fonts/sarabun/Sarabun-Medium';
+$path-file-font-family-primary-semibold: '~static/fonts/sarabun/Sarabun-SemiBold';
+$path-file-font-family-primary-bold: '~static/fonts/sarabun/Sarabun-Bold';
+$path-file-font-family-primary-extrabold: '~static/fonts/sarabun/Sarabun-ExtraBold';
+// SF Pro Text
+$path-file-font-family-secondary-regular: '~static/fonts/sfprotext/SFProText-Regular';
+$path-file-font-family-secondary-bold: '~static/fonts/sfprotext/SFProText-Bold';
+
+// Sarabun
+// ============================================================
+
+// Extra Light
+@font-face {
+  font-family: 'Sarabun ExtraLight';
+  src: url('#{$path-file-font-family-primary-extralight}.eot');
+  src: url('#{$path-file-font-family-primary-extralight}.eot') format('embedded-opentype'),
+  url('#{$path-file-font-family-primary-extralight}.woff') format('woff'),
+  url('#{$path-file-font-family-primary-extralight}.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+// Light
+@font-face {
+  font-family: 'Sarabun Light';
+  src: url('#{$path-file-font-family-primary-light}.eot');
+  src: url('#{$path-file-font-family-primary-light}.eot') format('embedded-opentype'),
+  url('#{$path-file-font-family-primary-light}.woff') format('woff'),
+  url('#{$path-file-font-family-primary-light}.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+// Regular
+@font-face {
+  font-family: 'Sarabun Regular';
+  src: url('#{$path-file-font-family-primary-regular}.eot');
+  src: url('#{$path-file-font-family-primary-regular}.eot') format('embedded-opentype'),
+  url('#{$path-file-font-family-primary-regular}.woff') format('woff'),
+  url('#{$path-file-font-family-primary-regular}.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+// Medium
+@font-face {
+  font-family: 'Sarabun Medium';
+  src: url('#{$path-file-font-family-primary-medium}.eot');
+  src: url('#{$path-file-font-family-primary-medium}.eot') format('embedded-opentype'),
+  url('#{$path-file-font-family-primary-medium}.woff') format('woff'),
+  url('#{$path-file-font-family-primary-medium}.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+// SemiBold
+@font-face {
+  font-family: 'Sarabun SemiBold';
+  src: url('#{$path-file-font-family-primary-semibold}.eot');
+  src: url('#{$path-file-font-family-primary-semibold}.eot') format('embedded-opentype'),
+  url('#{$path-file-font-family-primary-semibold}.woff') format('woff'),
+  url('#{$path-file-font-family-primary-semibold}.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+// Bold
+@font-face {
+  font-family: 'Sarabun Bold';
+  src: url('#{$path-file-font-family-primary-bold}.eot');
+  src: url('#{$path-file-font-family-primary-bold}.eot') format('embedded-opentype'),
+  url('#{$path-file-font-family-primary-bold}.woff') format('woff'),
+  url('#{$path-file-font-family-primary-bold}.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+// ExtraBold
+@font-face {
+  font-family: 'Sarabun ExtraBold';
+  src: url('#{$path-file-font-family-primary-extrabold}.eot');
+  src: url('#{$path-file-font-family-primary-extrabold}.eot') format('embedded-opentype'),
+  url('#{$path-file-font-family-primary-extrabold}.woff') format('woff'),
+  url('#{$path-file-font-family-primary-extrabold}.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+// SF Pro Text
+// ============================================================
+// Regular
+@font-face {
+  font-family: 'SF Pro Text Regular';
+  src: url('#{$path-file-font-family-secondary-regular}.eot');
+  src: url('#{$path-file-font-family-secondary-regular}.eot') format('embedded-opentype'),
+  url('#{$path-file-font-family-secondary-regular}.woff') format('woff'),
+  url('#{$path-file-font-family-secondary-regular}.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+// Bold
+@font-face {
+  font-family: 'SF Pro Text Bold';
+  src: url('#{$path-file-font-family-secondary-bold}.eot');
+  src: url('#{$path-file-font-family-secondary-bold}.eot') format('embedded-opentype'),
+  url('#{$path-file-font-family-secondary-bold}.woff') format('woff'),
+  url('#{$path-file-font-family-secondary-bold}.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}

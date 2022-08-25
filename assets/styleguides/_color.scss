@@ -1,0 +1,227 @@
+// //////////////////////////////////////////////////////////////////////////////////////////////////
+// ==================================================================================================
+//
+// Color
+// - Base
+//   > Black
+//   > White
+// - General
+//   > Gray
+//   > Purple
+//   > Red
+//   > Green
+//   > Blue
+//   > Orange
+// - Specific
+//   > Brand
+//   > Status
+// ==================================================================================================
+// //////////////////////////////////////////////////////////////////////////////////////////////////
+
+// Base
+// ============================================================
+
+// Black
+$color-black: #111111;
+$color-black-a50: rgba(0, 0, 0, 0.5);
+$color-white: #FFFFFF;
+$color-white-a85: rgba(255, 255, 255, 0.85);
+
+// White
+$color-white-a25: rgba(255, 255, 255, 0.25);
+$color-white-a50: rgba(255, 255, 255, 0.5);
+
+// General
+// ============================================================
+
+// Gray
+// ----------------------------------------
+$color-gray-1: #242D2E;
+$color-gray-1a75: rgba(36, 45, 46, 0.75);
+$color-gray-2: #5B5B5B;
+$color-gray-3: #7D8A8B;
+$color-gray-3a15: rgba(125, 138, 139, 0.15);
+$color-gray-3a25: rgba(125, 138, 139, 0.25);
+$color-gray-3a50: rgba(125, 138, 139, 0.5);
+$color-gray-4: #9CA5A6;
+$color-gray-5: #9BA5A8;
+$color-gray-6: #9DA7A8;
+$color-gray-7: #BEC4C5;
+$color-gray-8: #C4C4C4;
+$color-gray-9: #DBDEDE;
+$color-gray-10: #D9DDDE;
+$color-gray-11: #DFE2E2;
+$color-gray-12: #DEE1E2;
+$color-gray-13: #DFE1E2;
+$color-gray-14: #E9ECF0;
+$color-gray-15: #EEEEEE;
+$color-gray-16: #F2F3F3;
+$color-gray-17: #F2F4F4;
+$color-gray-18: #ECEEEE;
+$color-gray-19: #CACECE;
+$color-gray-20: #C7C7C7;
+
+// Purple
+// ----------------------------------------
+$color-purple-1: #25329B;
+$color-purple-1a85: rgba(37, 50, 155, 0.85);
+$color-purple-2: #3B4487;
+$color-purple-3: #3A48B4;
+$color-purple-3a15: rgba(58, 72, 180, 0.15);
+$color-purple-3a50: rgba(58, 72, 180, 0.5);
+$color-purple-4: #404CAB;
+$color-purple-5: #4D58AC;
+$color-purple-6: #4358C3;
+$color-purple-7: #4359C9;
+$color-purple-8: #565FD5;
+$color-purple-9: #666FE8;
+$color-purple-9a50: rgba(102, 111, 232, 0.5);
+$color-purple-10: #9BA5EF;
+$color-purple-11: #AFB4F1;
+$color-purple-12: #D2D6F3;
+$color-purple-13: #E8E9F1;
+$color-purple-14: #ECEDF3;
+$color-purple-15: #EAEDFA;
+// $color-purple-16: #EAEDFA;
+$color-purple-17: #F5F6FB;
+$color-purple-18: #F4F6FC;
+$color-purple-19: #F8F9F9;
+$color-purple-20: #5F71CC;
+$color-purple-21: #F5F6FD;
+$color-purple-22: #E0E4F8;
+$color-purple-23: #6174B6;
+$color-purple-24: #4155A2;
+
+// Red
+// ----------------------------------------
+$color-red-1: #FA4747;
+$color-red-1a10: rgba(250, 71, 71, 0.1);
+$color-red-1a50: rgba(250, 71, 71, 0.5);
+$color-red-2: #FF6E4E;
+$color-red-3: #FC8C8C;
+$color-red-4: #FFA3A3;
+$color-red-5: #FED1D1;
+$color-red-6: #FEE3E3;
+$color-red-7: #FFEDED;
+$color-red-8: #FFEBEB;
+$color-red-9: #FFF7F7;
+$color-red-10: #FFD3D3;
+$color-red-11: #FFC6C6;
+$color-red-12: #FF3F25;
+$color-red-13: #FDABAB;
+$color-red-14: #F94D4D;
+$color-red-15: #F62121;
+$color-red-16: #FDCACA;
+$color-red-17: #F0786F;
+$color-red-18: #EB594F;
+$color-red-19: #F087A1;
+$color-red-20: #EB6988;
+$color-red-21: #B42816;
+$color-red-22: #F13E3E;
+$color-red-23: #430F08;
+$color-red-24: #FFE3E3;
+
+// Green
+// ----------------------------------------
+$color-green-1: #4BC645;
+$color-green-1a50: rgba(75, 198, 69, 0.5);
+$color-green-2: #30CF94;
+$color-green-3: #0EDACE;
+$color-green-4: #8EDB8A;
+$color-green-5: #D2F0D0;
+$color-green-6: #EAFAF4;
+$color-green-7: #13B266;
+$color-green-8: #01BAA6;
+$color-green-9: #23A51F;
+$color-green-10: #2C9175;
+$color-green-11: #137556;
+$color-green-12: #417B92;
+$color-green-13: #235D77;
+
+// Blue
+// ----------------------------------------
+$color-blue-1: #2F49CF;
+$color-blue-1a10: rgba(47, 73, 207, 0.1);
+$color-blue-1a15: rgba(47, 73, 207, 0.15);
+$color-blue-1a25: rgba(47, 73, 207, 0.25);
+$color-blue-1a50: rgba(47, 73, 207, 0.5);
+$color-blue-2: #1A8FFB;
+$color-blue-3: #2BDEEA;
+$color-blue-4: #DDEDFF;
+$color-blue-5: #E0E4F8;
+$color-blue-6: #ECEDF6;
+$color-blue-7: #C9D8FF;
+$color-blue-8: #F2F3F9;
+$color-blue-9: #1C2FBC;
+$color-blue-10: #10C8DB;
+$color-blue-11: #D9DCF7;
+$color-blue-12: #4D73D7;
+$color-blue-13: #3661CE;
+$color-blue-14: #55ABF0;
+$color-blue-15: #3694EB;
+
+// Orange
+// ----------------------------------------
+$color-orange-1: #FFA336;
+$color-orange-1a10: rgba(255, 163, 54, 0.1);
+$color-orange-1a50: rgba(255, 163, 54, 0.5);
+$color-orange-2: #F0B239;
+$color-orange-3: #FFB236;
+$color-orange-4: #FFEFDD;
+$color-orange-5: #FFAB24;
+$color-orange-6: #FF730E;
+$color-orange-7: #FF7716;
+$color-orange-8: #FF4404;
+$color-orange-9: #FFE0BF;
+$color-orange-10: #E68918;
+$color-orange-11: #EF9D68;
+$color-orange-12: #E98349;
+$color-orange-13: #DF8B6A;
+$color-orange-14: #D56F4B;
+
+// Specific
+// ============================================================
+// Brand
+$color-primary-1: $color-blue-1;
+$color-primary-2: $color-purple-9;
+
+// Form Status
+$color-error: $color-red-1;
+$color-disabled: $color-gray-14;
+$color-disabled-darker: $color-gray-9;
+$color-placeholder: $color-gray-8;
+
+// Claim Business Status
+$color-paid: $color-green-10;
+$color-paid-text: $color-green-11;
+$color-approved: $color-green-12;
+$color-approved-text: $color-green-13;
+$color-rejected: $color-red-17;
+$color-rejected-text: $color-red-18;
+$color-canceled: $color-red-19;
+$color-canceled-text: $color-red-20;
+$color-onprocess: $color-orange-11;
+$color-onprocess-text: $color-orange-12;
+$color-request-document: $color-orange-13;
+$color-request-document-text: $color-orange-14;
+$color-close: $color-green-12;
+$color-close-text: $color-green-13;
+$color-payment-process: $color-purple-23;
+$color-payment-process-text: $color-purple-24;
+$color-payment: $color-blue-14;
+$color-payment-text: $color-blue-15;
+
+// Waiting for design in health
+$color-active: $color-green-1;
+$color-discharge-process: $color-blue-1;
+$color-waiting-for-approve: $color-orange-3;
+$color-waiting-for-discharge: $color-orange-3;
+$color-draft: $color-orange-3;
+$color-defend: $color-red-1;
+$color-timeout: $color-red-1;
+$color-inactive: $color-red-1;
+
+
+// Component
+$color-overlay-back: $color-black-a50;
+$color-overlay-white: $color-white-a85;

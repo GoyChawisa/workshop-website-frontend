@@ -1,0 +1,587 @@
+// //////////////////////////////////////////////////////////////////////////////////////////////////
+// ==================================================================================================
+//
+// Typography
+// - Variables
+// - Mixns
+// - Primary (Sarabun)
+// - Secondary (SF Pro Text)
+//
+// ==================================================================================================
+// //////////////////////////////////////////////////////////////////////////////////////////////////
+
+// Variables
+// ============================================================
+// Primary (Sarabun)
+$font-family-primary-extralight: 'Sarabun ExtraLight';
+$font-family-primary-light: 'Sarabun Light';
+$font-family-primary-regular: 'Sarabun Regular';
+$font-family-primary-medium: 'Sarabun Medium';
+$font-family-primary-semibold: 'Sarabun SemiBold';
+$font-family-primary-bold: 'Sarabun Bold';
+$font-family-primary-extrabold: 'Sarabun ExtraBold';
+$line-height-primary: 1.3;
+// Secondary (SF Pro Text)
+$font-family-secondary-regular: 'SF Pro Text Regular';
+$font-family-secondary-bold: 'SF Pro Text Bold';
+$line-height-secondary: 1.3;
+
+// Mixins
+// ============================================================
+@mixin typography-primary-base() {
+  font-weight: normal;
+  line-height: $line-height-primary;
+}
+
+@mixin typography-secondary-base() {
+  font-weight: normal;
+  line-height: $line-height-secondary;
+}
+
+// Primary (Sarabun)
+//
+// ExtraLight
+// @include typography-primary-extralight-28;
+// @include typography-primary-extralight-22;
+// @include typography-primary-extralight-20;
+// @include typography-primary-extralight-18;
+// @include typography-primary-extralight-16;
+// @include typography-primary-extralight-14;
+// @include typography-primary-extralight-12;
+// @include typography-primary-extralight-10;
+//
+// Light
+// @include typography-primary-light-28;
+// @include typography-primary-light-22;
+// @include typography-primary-light-20;
+// @include typography-primary-light-18;
+// @include typography-primary-light-16;
+// @include typography-primary-light-14;
+// @include typography-primary-light-12;
+// @include typography-primary-light-10;
+//
+// Regular
+// @include typography-primary-regular-28;
+// @include typography-primary-regular-22;
+// @include typography-primary-regular-20;
+// @include typography-primary-regular-18;
+// @include typography-primary-regular-16;
+// @include typography-primary-regular-14;
+// @include typography-primary-regular-12;
+// @include typography-primary-regular-10;
+//
+// Medium
+// @include typography-primary-medium-28;
+// @include typography-primary-medium-22;
+// @include typography-primary-medium-20;
+// @include typography-primary-medium-18;
+// @include typography-primary-medium-16;
+// @include typography-primary-medium-14;
+// @include typography-primary-medium-12;
+// @include typography-primary-medium-10;
+//
+// SemiBold
+// @include typography-primary-semibold-28;
+// @include typography-primary-semibold-22;
+// @include typography-primary-semibold-20;
+// @include typography-primary-semibold-18;
+// @include typography-primary-semibold-16;
+// @include typography-primary-semibold-14;
+// @include typography-primary-semibold-12;
+// @include typography-primary-semibold-10;
+//
+// Bold
+// @include typography-primary-bold-28;
+// @include typography-primary-bold-22;
+// @include typography-primary-bold-20;
+// @include typography-primary-bold-18;
+// @include typography-primary-bold-16;
+// @include typography-primary-bold-14;
+// @include typography-primary-bold-12;
+// @include typography-primary-bold-10;
+//
+// ExtraBold
+// @include typography-primary-extrabold-28;
+// @include typography-primary-extrabold-22;
+// @include typography-primary-extrabold-20;
+// @include typography-primary-extrabold-18;
+// @include typography-primary-extrabold-16;
+// @include typography-primary-extrabold-14;
+// @include typography-primary-extrabold-12;
+// @include typography-primary-extrabold-10;
+//
+// ============================================================
+
+// ExtraLight
+// ------------------------------
+@mixin typography-primary-extralight-28() {
+  @include typography-primary-base;
+  font-family: $font-family-primary-extralight;
+  font-size: 28px;
+}
+
+@mixin typography-primary-extralight-22() {
+  @include typography-primary-base;
+  font-family: $font-family-primary-extralight;
+  font-size: 22px;
+}
+
+@mixin typography-primary-extralight-20() {
+  @include typography-primary-base;
+  font-family: $font-family-primary-extralight;
+  font-size: 20px;
+}
+
+@mixin typography-primary-extralight-18() {
+  @include typography-primary-base;
+  font-family: $font-family-primary-extralight;
+  font-size: 18px;
+}
+
+@mixin typography-primary-extralight-16() {
+  @include typography-primary-base;
+  font-family: $font-family-primary-extralight;
+  font-size: 16px;
+}
+
+@mixin typography-primary-extralight-14() {
+  @include typography-primary-base;
+  font-family: $font-family-primary-extralight;
+  font-size: 14px;
+}
+
+@mixin typography-primary-extralight-12() {
+  @include typography-primary-base;
+  font-family: $font-family-primary-extralight;
+  font-size: 12px;
+}
+
+@mixin typography-primary-extralight-10() {
+  @include typography-primary-base;
+  font-family: $font-family-primary-extralight;
+  font-size: 10px;
+}
+
+// Light
+// ------------------------------
+@mixin typography-primary-light-28() {
+  @include typography-primary-base;
+  font-family: $font-family-primary-light;
+  font-size: 28px;
+}
+
+@mixin typography-primary-light-22() {
+  @include typography-primary-base;
+  font-family: $font-family-primary-light;
+  font-size: 22px;
+}
+
+@mixin typography-primary-light-20() {
+  @include typography-primary-base;
+  font-family: $font-family-primary-light;
+  font-size: 20px;
+}
+
+@mixin typography-primary-light-18() {
+  @include typography-primary-base;
+  font-family: $font-family-primary-light;
+  font-size: 18px;
+}
+
+@mixin typography-primary-light-16() {
+  @include typography-primary-base;
+  font-family: $font-family-primary-light;
+  font-size: 16px;
+}
+
+@mixin typography-primary-light-14() {
+  @include typography-primary-base;
+  font-family: $font-family-primary-light;
+  font-size: 14px;
+}
+
+@mixin typography-primary-light-12() {
+  @include typography-primary-base;
+  font-family: $font-family-primary-light;
+  font-size: 12px;
+}
+
+@mixin typography-primary-light-10() {
+  @include typography-primary-base;
+  font-family: $font-family-primary-light;
+  font-size: 10px;
+}
+
+// Regular
+// ------------------------------
+@mixin typography-primary-regular-28() {
+  @include typography-primary-base;
+  font-family: $font-family-primary-regular;
+  font-size: 28px;
+}
+
+@mixin typography-primary-regular-22() {
+  @include typography-primary-base;
+  font-family: $font-family-primary-regular;
+  font-size: 22px;
+}
+
+@mixin typography-primary-regular-20() {
+  @include typography-primary-base;
+  font-family: $font-family-primary-regular;
+  font-size: 20px;
+}
+
+@mixin typography-primary-regular-18() {
+  @include typography-primary-base;
+  font-family: $font-family-primary-regular;
+  font-size: 18px;
+}
+
+@mixin typography-primary-regular-16() {
+  @include typography-primary-base;
+  font-family: $font-family-primary-regular;
+  font-size: 16px;
+}
+
+@mixin typography-primary-regular-14() {
+  @include typography-primary-base;
+  font-family: $font-family-primary-regular;
+  font-size: 14px;
+}
+
+@mixin typography-primary-regular-12() {
+  @include typography-primary-base;
+  font-family: $font-family-primary-regular;
+  font-size: 12px;
+}
+
+@mixin typography-primary-regular-10() {
+  @include typography-primary-base;
+  font-family: $font-family-primary-regular;
+  font-size: 10px;
+}
+
+// Medium
+// ------------------------------
+@mixin typography-primary-medium-28() {
+  @include typography-primary-base;
+  font-family: $font-family-primary-medium;
+  font-size: 28px;
+}
+
+@mixin typography-primary-medium-22() {
+  @include typography-primary-base;
+  font-family: $font-family-primary-medium;
+  font-size: 22px;
+}
+
+@mixin typography-primary-medium-20() {
+  @include typography-primary-base;
+  font-family: $font-family-primary-medium;
+  font-size: 20px;
+}
+
+@mixin typography-primary-medium-18() {
+  @include typography-primary-base;
+  font-family: $font-family-primary-medium;
+  font-size: 18px;
+}
+
+@mixin typography-primary-medium-16() {
+  @include typography-primary-base;
+  font-family: $font-family-primary-medium;
+  font-size: 16px;
+}
+
+@mixin typography-primary-medium-14() {
+  @include typography-primary-base;
+  font-family: $font-family-primary-medium;
+  font-size: 14px;
+}
+
+@mixin typography-primary-medium-12() {
+  @include typography-primary-base;
+  font-family: $font-family-primary-medium;
+  font-size: 12px;
+}
+
+@mixin typography-primary-medium-10() {
+  @include typography-primary-base;
+  font-family: $font-family-primary-medium;
+  font-size: 10px;
+}
+
+// SemiBold
+// ------------------------------
+@mixin typography-primary-semibold-28() {
+  @include typography-primary-base;
+  font-family: $font-family-primary-semibold;
+  font-size: 28px;
+}
+
+@mixin typography-primary-semibold-22() {
+  @include typography-primary-base;
+  font-family: $font-family-primary-semibold;
+  font-size: 22px;
+}
+
+@mixin typography-primary-semibold-20() {
+  @include typography-primary-base;
+  font-family: $font-family-primary-semibold;
+  font-size: 20px;
+}
+
+@mixin typography-primary-semibold-18() {
+  @include typography-primary-base;
+  font-family: $font-family-primary-semibold;
+  font-size: 18px;
+}
+
+@mixin typography-primary-semibold-16() {
+  @include typography-primary-base;
+  font-family: $font-family-primary-semibold;
+  font-size: 16px;
+}
+
+@mixin typography-primary-semibold-14() {
+  @include typography-primary-base;
+  font-family: $font-family-primary-semibold;
+  font-size: 14px;
+}
+
+@mixin typography-primary-semibold-12() {
+  @include typography-primary-base;
+  font-family: $font-family-primary-semibold;
+  font-size: 12px;
+}
+
+@mixin typography-primary-semibold-10() {
+  @include typography-primary-base;
+  font-family: $font-family-primary-semibold;
+  font-size: 10px;
+}
+
+// Bold
+// ------------------------------
+@mixin typography-primary-bold-28() {
+  @include typography-primary-base;
+  font-family: $font-family-primary-bold;
+  font-size: 28px;
+}
+
+@mixin typography-primary-bold-22() {
+  @include typography-primary-base;
+  font-family: $font-family-primary-bold;
+  font-size: 22px;
+}
+
+@mixin typography-primary-bold-20() {
+  @include typography-primary-base;
+  font-family: $font-family-primary-bold;
+  font-size: 20px;
+}
+
+@mixin typography-primary-bold-18() {
+  @include typography-primary-base;
+  font-family: $font-family-primary-bold;
+  font-size: 18px;
+}
+
+@mixin typography-primary-bold-16() {
+  @include typography-primary-base;
+  font-family: $font-family-primary-bold;
+  font-size: 16px;
+}
+
+@mixin typography-primary-bold-14() {
+  @include typography-primary-base;
+  font-family: $font-family-primary-bold;
+  font-size: 14px;
+}
+
+@mixin typography-primary-bold-12() {
+  @include typography-primary-base;
+  font-family: $font-family-primary-bold;
+  font-size: 12px;
+}
+
+@mixin typography-primary-bold-10() {
+  @include typography-primary-base;
+  font-family: $font-family-primary-bold;
+  font-size: 10px;
+}
+
+// ExtraBold
+// ------------------------------
+@mixin typography-primary-extrabold-28() {
+  @include typography-primary-base;
+  font-family: $font-family-primary-extrabold;
+  font-size: 28px;
+}
+
+@mixin typography-primary-extrabold-22() {
+  @include typography-primary-base;
+  font-family: $font-family-primary-extrabold;
+  font-size: 22px;
+}
+
+@mixin typography-primary-extrabold-20() {
+  @include typography-primary-base;
+  font-family: $font-family-primary-extrabold;
+  font-size: 20px;
+}
+
+@mixin typography-primary-extrabold-18() {
+  @include typography-primary-base;
+  font-family: $font-family-primary-extrabold;
+  font-size: 18px;
+}
+
+@mixin typography-primary-extrabold-16() {
+  @include typography-primary-base;
+  font-family: $font-family-primary-extrabold;
+  font-size: 16px;
+}
+
+@mixin typography-primary-extrabold-14() {
+  @include typography-primary-base;
+  font-family: $font-family-primary-extrabold;
+  font-size: 14px;
+}
+
+@mixin typography-primary-extrabold-12() {
+  @include typography-primary-base;
+  font-family: $font-family-primary-extrabold;
+  font-size: 12px;
+}
+
+@mixin typography-primary-extrabold-10() {
+  @include typography-primary-base;
+  font-family: $font-family-primary-extrabold;
+  font-size: 10px;
+}
+
+// Secondary (SF Pro Text)
+//
+// Regular
+// @include typography-secondary-regular-28;
+// @include typography-secondary-regular-22;
+// @include typography-secondary-regular-20;
+// @include typography-secondary-regular-18;
+// @include typography-secondary-regular-16;
+// @include typography-secondary-regular-14;
+// @include typography-secondary-regular-12;
+// @include typography-secondary-regular-10;
+//
+// Bold
+// @include typography-secondary-bold-28;
+// @include typography-secondary-bold-22;
+// @include typography-secondary-bold-20;
+// @include typography-secondary-bold-18;
+// @include typography-secondary-bold-16;
+// @include typography-secondary-bold-14;
+// @include typography-secondary-bold-12;
+// @include typography-secondary-bold-10;
+//
+// ============================================================
+
+// Regular
+// ------------------------------
+@mixin typography-secondary-regular-28() {
+  @include typography-secondary-base;
+  font-family: $font-family-secondary-regular;
+  font-size: 28px;
+}
+
+@mixin typography-secondary-regular-22() {
+  @include typography-secondary-base;
+  font-family: $font-family-secondary-regular;
+  font-size: 22px;
+}
+
+@mixin typography-secondary-regular-20() {
+  @include typography-secondary-base;
+  font-family: $font-family-secondary-regular;
+  font-size: 20px;
+}
+
+@mixin typography-secondary-regular-18() {
+  @include typography-secondary-base;
+  font-family: $font-family-secondary-regular;
+  font-size: 18px;
+}
+
+@mixin typography-secondary-regular-16() {
+  @include typography-secondary-base;
+  font-family: $font-family-secondary-regular;
+  font-size: 16px;
+}
+
+@mixin typography-secondary-regular-14() {
+  @include typography-secondary-base;
+  font-family: $font-family-secondary-regular;
+  font-size: 14px;
+}
+
+@mixin typography-secondary-regular-12() {
+  @include typography-secondary-base;
+  font-family: $font-family-secondary-regular;
+  font-size: 12px;
+}
+
+@mixin typography-secondary-regular-10() {
+  @include typography-secondary-base;
+  font-family: $font-family-secondary-regular;
+  font-size: 10px;
+}
+
+// Bold
+// ------------------------------
+@mixin typography-secondary-bold-28() {
+  @include typography-secondary-base;
+  font-family: $font-family-secondary-bold;
+  font-size: 28px;
+}
+
+@mixin typography-secondary-bold-22() {
+  @include typography-secondary-base;
+  font-family: $font-family-secondary-bold;
+  font-size: 22px;
+}
+
+@mixin typography-secondary-bold-20() {
+  @include typography-secondary-base;
+  font-family: $font-family-secondary-bold;
+  font-size: 20px;
+}
+
+@mixin typography-secondary-bold-18() {
+  @include typography-secondary-base;
+  font-family: $font-family-secondary-bold;
+  font-size: 18px;
+}
+
+@mixin typography-secondary-bold-16() {
+  @include typography-secondary-base;
+  font-family: $font-family-secondary-bold;
+  font-size: 16px;
+}
+
+@mixin typography-secondary-bold-14() {
+  @include typography-secondary-base;
+  font-family: $font-family-secondary-bold;
+  font-size: 14px;
+}
+
+@mixin typography-secondary-bold-12() {
+  @include typography-secondary-base;
+  font-family: $font-family-secondary-bold;
+  font-size: 12px;
+}
+
+@mixin typography-secondary-bold-10() {
+  @include typography-secondary-base;
+  font-family: $font-family-secondary-bold;
+  font-size: 10px;
+}

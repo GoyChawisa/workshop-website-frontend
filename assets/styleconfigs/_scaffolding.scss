@@ -1,0 +1,23 @@
+// //////////////////////////////////////////////////////////////////////////////////////////////////
+// ==================================================================================================
+//
+// Scaffolding
+// - Reset browser and CSS framework html style
+//
+// ==================================================================================================
+// //////////////////////////////////////////////////////////////////////////////////////////////////
+
+@import '~assets/styleguides/styleguides';
+
+html {
+  overflow-y: auto;
+  min-width: 1px;
+  background-color: $color-white;
+  font-size: 14px;
+}
+
+body {
+  @include typography-primary-regular-14;
+  touch-action: manipulation; // Fix double tab to zoom in iOS
+  color: $color-black;
+}
